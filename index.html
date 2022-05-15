@@ -19,6 +19,8 @@
         integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/main.css">
+    
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
     <script>
         window.onload = function () {
             //json文件路径
@@ -63,6 +65,14 @@
 
 
         </div>
+        <div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: 'TOJAsnxGnczY7AP8q2laHpuG-gzGzoHsz',
+            appKey: 'oVSbvDaNODujzYzUDiCKH2qO'
+        })
+    </script>
     </main>
 </body>
 
