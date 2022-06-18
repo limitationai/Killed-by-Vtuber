@@ -38,12 +38,6 @@ context.fillStyle=this.color;
 context.fillText(this.text,this.x,this.y);
 }
 }
-//画月亮
-function drawMoon(){
-var moon = new Image();
-moon.src = "./images/moon.jpg"
-context.drawImage(moon,-5,-10);
-}
 //页面加载的时候
 window.onload = function() {
 init();
