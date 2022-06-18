@@ -1,0 +1,41 @@
+.custom{
+    padding: 0;
+}
+.img_custom{
+    width: 5rem;
+    position: relative;
+    top: -10.5rem;   
+}
+.p_custom{
+    position: relative;
+    top: -6.7rem;   
+    font-size: 0.6vw;
+}
+.h3_custom{
+    border-bottom:1px dotted;
+    font-size: 22px;
+}
+.row_custom{
+    position: relative;
+    left: 4rem;
+}
+.content_custom{
+    height: 24rem;
+}
+a{
+    color: black;
+}
+.input_custom{
+    margin: 1% 0;
+    padding:0 1.3rem;
+}
+a{
+    filter: grayscale(100%);
+}
+a:hover{
+    filter: grayscale(0%);
+}
+h1{
+    background-color: silver;
+    padding: 1%;
+}
